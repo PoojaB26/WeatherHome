@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Weather Home',
+      debugShowCheckedModeBanner: false,
       home: new WeatherHome(),
     );
   }
