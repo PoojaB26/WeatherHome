@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class WeatherHome extends StatelessWidget{
 
-
   //first part; city details
   final _cityDetails = Center(
     child: new Container(
@@ -12,7 +11,7 @@ class WeatherHome extends StatelessWidget{
             style: TextStyle(
                 fontSize: 36.0,
                 color: Colors.white,
-                fontWeight: FontWeight.w300
+                fontWeight: FontWeight.w300,
             ),
           ),
           SizedBox(height: 10.0,),
